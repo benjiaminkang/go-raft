@@ -272,7 +272,7 @@ func Make(peers []*labrpc.ClientEnd, me int,
 	rf.me = me
 
 	// Your initialization code here (2A, 2B, 2C).
-
+	code
 	// initialize from state persisted before a crash
 	rf.readPersist(persister.ReadRaftState())
 
